@@ -1,0 +1,20 @@
+dn: dc=edt,dc=org
+dc: edt
+description: Escola del treball de Barcelona
+objectClass: dcObject
+objectClass: organization
+o: edt.org
+
+####INLCUDE 		ORGANIZACIONES
+include: file:///var/tmp/M06/EXAMEN/BD_1.ldif
+include: file:///var/tmp/M06/EXAMEN/BD_2.ldif
+include: file:///var/tmp/M06/EXAMEN/BD_7.ldif
+#usuarios
+include: file:///var/tmp/M06/EXAMEN/BD_5.ldif
+include: file:///var/tmp/M06/EXAMEN/BD_6.ldif
+#grupos
+include: file:///var/tmp/M06/EXAMEN/BD_3.ldif
+include: file:///var/tmp/M06/EXAMEN/BD_4.ldif
+
+
+

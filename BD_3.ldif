@@ -1,0 +1,60 @@
+###
+#######		TERCER NIVEL 	GRUPOS DEL SISTEMA
+####	usuarios "x POU" + Admin Systtem que pertenecen al ou USUARIOS
+##
+dn: cn=nois,ou=grups,dc=edt,dc=org
+cn: nois
+gidNumber: 100
+description: Container per als grups de sistema linux
+description: GRUPO NOIS
+objectclass: posixGroup
+memberUid: cn=Pau Pou,ou=usuaris,dc=edt,dc=org
+memberUid: cn=Pere Pou,ou=usuaris,dc=edt,dc=org
+memberUid: cn=Jordi Mas,ou=usuaris,dc=edt,dc=org
+
+dn: cn=noies,ou=grups,dc=edt,dc=org
+cn: noies
+gidNumber: 600
+description: Container per als grups de sistema linux
+description: GRUPO NOIES
+objectclass: posixGroup
+memberUid: cn=Anna Pou,ou=usuaris,dc=edt,dc=org
+memberUid: cn=Marta Mas,ou=usuaris,dc=edt,dc=org
+
+dn: cn=admin,ou=grups,dc=edt,dc=org
+cn: noies
+gidNumber: 10
+description: Container per als grups de sistema linux
+description: GRUPO ADMINISTRACION
+objectclass: posixGroup
+memberUid: cn=Admin System,ou=usuaris,dc=edt,dc=org
+###
+#######		
+####	usuarios raros franco, carles puig demon etcssssss pertenecen al ou CLIENT
+##
+
+dn: cn=clients1,ou=grups,dc=edt,dc=org
+cn: clients1
+gidNumber: 651
+description: Container per als grups de sistema linux
+description: GRUPO CLIENTES1
+objectclass: posixGroup
+memberUid: cn=konrad adenauer,o=eu,o=europa,ou=clients,dc=edt,dc=org
+memberUid: cn=humphrey appleby,o=eu,o=europa,ou=clients,dc=edt,dc=org
+memberUid: cn=carles puigdemon,o=eu,o=europa,ou=clients,dc=edt,dc=org
+memberUid: cn=francisco franco bahamonde,o=noneu,o=europa,ou=clients,dc=edt,dc=org
+memberUid: cn=vladimir putin,o=noneu,o=europa,ou=clients,dc=edt,dc=org
+memberUid: cn=jorge mario bergoglio,o=noneu,o=europa,ou=clients,dc=edt,dc=org
+
+dn: cn=clients2,ou=grups,dc=edt,dc=org
+cn: clients2
+gidNumber: 650
+description: Container per als grups de sistema linux
+description: GRUPO CLIENTES2
+objectclass: posixGroup
+memberUid: cn=jorge mario bergoglio,o=noneu,o=europa,ou=clients,dc=edt,dc=org
+memberUid: cn=ho chi minh,o=asia,ou=clients,dc=edt,dc=org
+memberUid: cn=hirohito,o=asia,ou=clients,dc=edt,dc=org
+memberUid: cn=nelson mandela,o=africa,ou=clients,dc=edt,dc=org
+memberUid: cn=robert mugabe,o=africa,ou=clients,dc=edt,dc=org
+memberUid: cn=ali bey,o=africa,ou=clients,dc=edt,dc=org

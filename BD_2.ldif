@@ -1,0 +1,23 @@
+###
+#######		organizational units extres 
+####
+##
+dn: ou=hosts,dc=edt,dc=org
+ou: hosts
+description: Container per a hosts linux
+objectclass: organizationalunit
+
+dn: ou=keys,dc=edt,dc=org
+ou: keys
+description: Container per a keys linux
+objectclass: organizationalunit
+
+dn: ou=certs,dc=edt,dc=org
+ou: certs
+description: Container per a certs linux
+objectclass: organizationalunit
+
+dn: ou=domains,dc=edt,dc=org
+ou: domains
+description: Container per a domains linux
+objectclass: organizationalunit

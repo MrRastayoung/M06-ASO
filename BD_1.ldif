@@ -1,0 +1,28 @@
+###
+#######		organizational units de primer nivell 
+####
+##
+dn: ou=usuaris,dc=edt,dc=org
+ou: usuaris
+description: Container per usuaris del sistema linux
+objectclass: organizationalunit
+
+dn: ou=grups,dc=edt,dc=org
+ou: grups
+description: Container per a grups del sistema linux
+objectclass: organizationalunit
+
+dn: ou=clients,dc=edt,dc=org
+ou: clients
+description: Container per a clients linux
+objectclass: organizationalunit
+
+dn: ou=maquines,dc=edt,dc=org
+ou: maquines
+description: Container per a maquines linux
+objectclass: organizationalunit
+
+dn: ou=productes,dc=edt,dc=org
+ou: productes
+description: Container per a productes linux
+objectclass: organizationalunit

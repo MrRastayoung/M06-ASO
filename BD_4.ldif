@@ -1,0 +1,28 @@
+###
+#######		
+####	Grupos para los usuarios user0[0-9]  1asix 2asix
+##
+dn: cn=1asix,ou=grups,dc=edt,dc=org
+cn: 1asix
+gidNumber: 610
+description: Container per als grups de sistema linux
+description: GRUPO CLASE 1 de asix
+objectclass: top
+objectclass: posixGroup
+memberUid: user01
+memberUid: user02
+memberUid: user03
+memberUid: user04
+memberUid: user05
+
+dn: cn=2asix,ou=grups,dc=edt,dc=org
+cn: 2asix
+gidNumber: 611
+description: Container per als grups de sistema linux
+description: GRUPO CLASE 2 de asix
+objectclass: posixGroup
+memberUid: user06
+memberUid: user07
+memberUid: user08
+memberUid: user09
+memberUid: user10
